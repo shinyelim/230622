@@ -7,7 +7,8 @@ const number = item.querySelector('.number')
 
 const dataNumber = bar.dataset.number;
 //console.log(dataNumber)
-//number 에 숫자 변경/삽입
+//number 앞에있는 숫자 변경/삽입
+number.textContent = dataNumber;
 //number.textContent = dataNumber;
 //bar 그래프의 width 값으로 % 표현 
 bar.style.width = dataNumber + '%'
